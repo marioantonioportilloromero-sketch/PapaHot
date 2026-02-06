@@ -10,14 +10,13 @@ use Illuminate\Support\Facades\http;
 class JuegoController extends Controller
 {
 
-    private string $ipPermitida = 'https://donte-trappiest-fruitfully.ngrok-free.dev';
+    private string $ipPermitida = 'https://roni-promodernistic-depreciatingly.ngrok-free.dev';
 
     public function paparecibida(Request $request)
     {
         try {
             $num_paparecibida = $request->input('numero', 0);
             $mi_num = $num_paparecibida + 1;
-            $mi_num = $mi_num > 100 ? 1 : $mi_num;
 
             DB::table('game_state')->updateOrInsert(
                 ['id' => 1],
@@ -33,7 +32,7 @@ class JuegoController extends Controller
             return response()->json([
                 'status' => 'success',
                 'received_number' => $num_paparecibida,
-                'mensaje' => 'Papa recibida y procesada.',
+                'mensaje' => 'Papa recibida y procesada',
                 'mi_numero' => $mi_num
             ]);
 
@@ -55,7 +54,7 @@ class JuegoController extends Controller
             if ($response->successful()) {
                 return true;
             } else {
-                throw new \Exception('Error en la respuesta del servidor remoto: ' . $response->body());
+                throw new \Exception('Error en la respuesta del server: ' . $response->body());
             }
         } catch (\Exception $e) {
             throw new \Exception('Error al enviar la papa: ' . $e->getMessage());
