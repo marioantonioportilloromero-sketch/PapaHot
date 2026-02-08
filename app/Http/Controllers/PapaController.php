@@ -8,14 +8,13 @@ use Illuminate\Support\Facades\http;
 
 class PapaController extends Controller
 {
-    private string $ipPermitida = 'https://azariah-unbrittle-gwen.ngrok-free.dev';
+    private string $ipPermitida = 'https://azariah-unbrittle-gwen.ngrok-free.dev/api/paparecibida';
 
     public function NumeroRecibido(Request $request)
     {
         try {
             $num_recibido = $request->input('numero', 0);
             $mi_numero = $num_recibido + 1;
-            $mi_numero = $mi_numero > 100 ? 1 : $mi_numero;
 
             DB::table('game_state')->updateOrInsert(
                 ['id' => 1],

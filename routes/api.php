@@ -4,8 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PapaController;
 
-Route::post('/papareicbida', [PapaController::class, 'paparecibida'])
+Route::post('/paparecibida', [PapaController::class, 'NumeroRecibido'])
     ->middleware(['verificar.ip', 'delay.game']);
 
-Route::post('/iniciarjuego', [juegoController::class, 'empezarjuego']);
-Route::get('checarStatus', [JuegoController::class, 'checarestado']);
+Route::post('/iniciarjogo', [PapaController::class, 'empezarjuego']);
+Route::get('checarStatus', [PapaController::class, 'checarestado']);
