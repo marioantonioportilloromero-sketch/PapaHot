@@ -8,4 +8,5 @@ Route::post('/paparecibida', [PapaController::class, 'NumeroRecibido'])
     ->middleware(['verificar.ip', 'delay.game']);
 
 Route::post('/iniciarjogo', [PapaController::class, 'empezarjuego']);
-Route::get('checarStatus', [PapaController::class, 'checarestado']);
+
+Route::get('/checarStatus', [PapaController::class, 'checarestado']);

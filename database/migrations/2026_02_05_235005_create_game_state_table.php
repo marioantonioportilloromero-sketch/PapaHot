@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('numero')->default(0);
             $table->integer('num_max')->default(0);
-            $table->string('ultmia_ip')->nullable();
+            $table->string('ultima_ip')->nullable();
             $table->timestamps();
         });
     }

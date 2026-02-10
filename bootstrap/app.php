@@ -13,8 +13,8 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->alias([
-            'verificar.ip' => middleware::class,
-            'delay.game' => Delay::class,
+            'verificar.ip' => \App\Http\Middleware\VerificarIP::class,
+            'delay.game' => \App\Http\Middleware\Delay::class,
         ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
