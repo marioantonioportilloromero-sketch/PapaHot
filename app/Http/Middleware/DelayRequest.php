@@ -30,4 +30,8 @@ class DelayRequest
         cache()->forget($key);
         return $response;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20

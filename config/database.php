@@ -80,7 +80,10 @@ return [
             'engine' => null,
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 (PHP_VERSION_ID >= 80500 ? \Pdo\Mysql::ATTR_SSL_CA : \PDO::MYSQL_ATTR_SSL_CA) => env('MYSQL_ATTR_SSL_CA'),
+<<<<<<< HEAD
                  PDO::ATTR_EMULATE_PREPARES => true
+=======
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
             ]) : [],
         ],
 

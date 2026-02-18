@@ -14,10 +14,29 @@ class VerificarIPs
      * @param  \Closure(\Illuminate\Http\Request): (\Symfony\Component\HttpFoundation\Response)  $next
      */
     private array $ipsPermitidas = [
+<<<<<<< HEAD
+=======
+        'https://roni-promodernistic-depreciatingly.ngrok-free.dev',
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
 
     ];
     public function handle(Request $request, Closure $next): Response
     {
+<<<<<<< HEAD
         return $next($request);
     }
 }
+=======
+        $ipCliente = $request->ip();
+
+        if (!in_array($ipCliente, $this->ipsPermitidas)) {
+            return response()->json([
+                'Acceso denegado: IP no autorizada.',
+                'IP proporcionada: ' . $ipCliente
+            ], 403);
+        }
+
+        return $next($request);
+    }
+}
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20

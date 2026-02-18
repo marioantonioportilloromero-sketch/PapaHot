@@ -81,4 +81,8 @@ return [
         'validate_csrf_token' => Illuminate\Foundation\Http\Middleware\ValidateCsrfToken::class,
     ],
 
+<<<<<<< HEAD
 ];
+=======
+];
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20

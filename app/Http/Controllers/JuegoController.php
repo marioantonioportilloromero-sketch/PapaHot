@@ -10,7 +10,11 @@ use Illuminate\Support\Facades\http;
 class JuegoController extends Controller
 {
 
+<<<<<<< HEAD
     private string $ipPermitida = 'https://azariah-unbrittle-gwen.ngrok-free.dev';
+=======
+    private string $ipPermitida = 'https://roni-promodernistic-depreciatingly.ngrok-free.dev';
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
 
     public function paparecibida(Request $request)
     {
@@ -47,7 +51,11 @@ class JuegoController extends Controller
     public function enviarpapa(int $numero)
     {
         try {
+<<<<<<< HEAD
             $response = Http::timeout(10)->post($this->ipPermitida, [
+=======
+            $response = Http::timeout(5)->poat($this->ipPermitida, [
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
                 'numero' => $numero
             ]);
 
@@ -95,10 +103,18 @@ class JuegoController extends Controller
         $estado = DB::table('game_state')->find(1);
 
         return response()->json([
+<<<<<<< HEAD
             'laptop'=> 3,
+=======
+            'laptop'=> 1,
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
             'numero_actual' => $estado->numero ?? 0,
             'numero_maximo' => $estado->num_max ?? 0,
             'updated_at' => $estado->updated_at ?? null,
         ]);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20

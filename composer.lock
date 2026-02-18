@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "1e3915296c84ac14290fd5db001863a1",
     "packages": [
         {
@@ -18,6 +19,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/brick/math/zipball/a8b53e6cc4d3a336543f042a4dfa0e3f2f2356a4",
                 "reference": "a8b53e6cc4d3a336543f042a4dfa0e3f2f2356a4",
+=======
+    "content-hash": "fe3cf7a061adbb7a59668d11f8f97724",
+    "packages": [
+        {
+            "name": "brick/math",
+            "version": "0.14.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/math.git",
+                "reference": "55c950aa71a2cabc1d8f2bec1f8a7020bd244aa2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/math/zipball/55c950aa71a2cabc1d8f2bec1f8a7020bd244aa2",
+                "reference": "55c950aa71a2cabc1d8f2bec1f8a7020bd244aa2",
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
                 "shasum": ""
             },
             "require": {
@@ -56,7 +73,11 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/brick/math/tree/0.14.4"
+=======
+                "source": "https://github.com/brick/math/tree/0.14.2"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
             },
             "funding": [
                 {
@@ -64,7 +85,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2026-02-02T16:57:31+00:00"
+=======
+            "time": "2026-01-30T14:03:11+00:00"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -3078,6 +3103,7 @@
         },
         {
             "name": "psy/psysh",
+<<<<<<< HEAD
             "version": "v0.12.19",
             "source": {
                 "type": "git",
@@ -3088,6 +3114,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/a4f766e5c5b6773d8399711019bb7d90875a50ee",
                 "reference": "a4f766e5c5b6773d8399711019bb7d90875a50ee",
+=======
+            "version": "v0.12.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/psysh.git",
+                "reference": "ddff0ac01beddc251786fe70367cd8bbdb258196"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/ddff0ac01beddc251786fe70367cd8bbdb258196",
+                "reference": "ddff0ac01beddc251786fe70367cd8bbdb258196",
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
                 "shasum": ""
             },
             "require": {
@@ -3151,9 +3189,15 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.19"
             },
             "time": "2026-01-30T17:33:13+00:00"
+=======
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.18"
+            },
+            "time": "2025-12-17T14:35:46+00:00"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
         },
         {
             "name": "ralouphie/getallheaders",
@@ -6256,6 +6300,7 @@
         },
         {
             "name": "laravel/boost",
+<<<<<<< HEAD
             "version": "v2.0.5",
             "source": {
                 "type": "git",
@@ -6266,6 +6311,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/boost/zipball/00eede2041a9bac83eabbd3b3f16bd4aa91277c9",
                 "reference": "00eede2041a9bac83eabbd3b3f16bd4aa91277c9",
+=======
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/boost.git",
+                "reference": "6f7a9f70c1b2cc5fcef1585e8aa04b8546f150e9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/boost/zipball/6f7a9f70c1b2cc5fcef1585e8aa04b8546f150e9",
+                "reference": "6f7a9f70c1b2cc5fcef1585e8aa04b8546f150e9",
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
                 "shasum": ""
             },
             "require": {
@@ -6318,7 +6375,11 @@
                 "issues": "https://github.com/laravel/boost/issues",
                 "source": "https://github.com/laravel/boost"
             },
+<<<<<<< HEAD
             "time": "2026-02-01T09:52:44+00:00"
+=======
+            "time": "2026-01-28T13:53:50+00:00"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
         },
         {
             "name": "laravel/mcp",
@@ -7115,6 +7176,7 @@
         },
         {
             "name": "phpunit/php-file-iterator",
+<<<<<<< HEAD
             "version": "5.1.1",
             "source": {
                 "type": "git",
@@ -7125,18 +7187,38 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/2f3a64888c814fc235386b7387dd5b5ed92ad903",
                 "reference": "2f3a64888c814fc235386b7387dd5b5ed92ad903",
+=======
+            "version": "5.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
+                "reference": "118cfaaa8bc5aef3287bf315b6060b1174754af6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/118cfaaa8bc5aef3287bf315b6060b1174754af6",
+                "reference": "118cfaaa8bc5aef3287bf315b6060b1174754af6",
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.2"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "phpunit/phpunit": "^11.3"
+=======
+                "phpunit/phpunit": "^11.0"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "5.1-dev"
+=======
+                    "dev-main": "5.0-dev"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
                 }
             },
             "autoload": {
@@ -7164,12 +7246,17 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
                 "security": "https://github.com/sebastianbergmann/php-file-iterator/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.1.1"
+=======
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/5.1.0"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
             },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
                     "type": "github"
+<<<<<<< HEAD
                 },
                 {
                     "url": "https://liberapay.com/sebastianbergmann",
@@ -7185,6 +7272,11 @@
                 }
             ],
             "time": "2026-02-02T13:52:54+00:00"
+=======
+                }
+            ],
+            "time": "2024-08-27T05:02:59+00:00"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
         },
         {
             "name": "phpunit/php-invoker",
@@ -8653,5 +8745,9 @@
         "php": "^8.2"
     },
     "platform-dev": {},
+<<<<<<< HEAD
     "plugin-api-version": "2.9.0"
+=======
+    "plugin-api-version": "2.6.0"
+>>>>>>> bafffe825d326e44ec8a0f02b2d3f28b15529d20
 }
